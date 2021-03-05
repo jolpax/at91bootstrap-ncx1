@@ -1,0 +1,15 @@
+config	NCX1
+	bool "ncx1"
+	select NCX1
+	select DDRC
+	select ALLOW_DATAFLASH
+	select ALLOW_NANDFLASH
+	select ALLOW_SDCARD
+	select HAS_HW_INFO
+	select HAS_EEPROM
+	select ALLOW_CPU_CLK_600MHZ
+	select ALLOW_CRYSTAL_24_000MHZ
+	select SUPPORT_BUS_SPEED_200MHZ
+	select FLEXCOM
+	help
+	    Use the NCX1-EK Development board
